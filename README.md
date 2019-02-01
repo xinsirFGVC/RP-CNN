@@ -23,7 +23,7 @@ Note: In the data folder, we provide the train/test list for all of the three da
 
 ## Train the model
 We provide the detailed codes to train the RP-CNN on all of the three dataset. You can just run the code we provided and you 
-should get similar results.
+should get similar results. Note that you need to train three CNNs to extract features that correspond to different levels, the final prediction score is the average result of the three classifiers. We train 60 epochs on CUB-200-2011 dataset and 100 epochs on Stanford Cars/FGVC-Aircraft dataset.
 
 ## Test the model
 If you want to test the code, you should first download the dataset, and then download the models, then you should put them in
